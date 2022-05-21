@@ -55,10 +55,11 @@ nav ul li a {
     font-size: 4vh;
 }
 
- nav li a:hover {
+nav li a:hover {
     color: rgb(221, 239, 61);
 }
-.active{
+
+.active {
     color: blue;
 }
 
@@ -101,23 +102,23 @@ header {
     align-items: center;
 }
 
-.moreText{
+.moreText {
     display: none;
 }
 
-.text.show-more .moreText{
+.text.show-more .moreText {
     display: inline;
 }
 
-.readMoreButton{
+.readMoreButton {
     border: none;
     background: none;
-    color:  rgb(28, 202, 221) ;
+    color: rgb(28, 202, 221);
     cursor: pointer;
 }
 
 
-.bigger:hover{
+.bigger:hover {
     animation-name: bigger;
     animation-duration: 2s;
     animation-timing-function: ease-in;
@@ -144,7 +145,7 @@ p {
     grid-template-areas:
         'content'
         'header'
-        ;
+    ;
 }
 
 fieldset {
@@ -178,8 +179,9 @@ fieldset {
     }
 
     header {
-        font-size: 5vh; 
+        font-size: 5vh;
     }
+
     .gridItem2 {
         font-size: 3vh;
     }
@@ -201,7 +203,7 @@ fieldset {
     }
 }
 
-@keyframes bigger{
+@keyframes bigger {
     0% {
         transform: scale(1);
     }
